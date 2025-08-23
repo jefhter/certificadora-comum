@@ -6,34 +6,7 @@ Desenvolver Recursos Educacionais Abertos (REA) para a disciplina de **Fundament
 ---
 
 ## 📚 Conteúdo
-Este projeto abrange os principais conceitos e fundamentos da programação, com o objetivo de facilitar o aprendizado através de materiais educativos interativos e didáticos.  
-
-As matérias abordadas incluem:
-
-### 1. Fundamentos de Algoritmos
-- **Conceitos:** Constantes, variáveis, expressões aritméticas, relacionais e lógicas.  
-- **Comandos:** Entrada e saída de dados.  
-- **Estrutura Sequencial:** Execução de comandos em sequência.  
-
-### 2. Estrutura de Decisão
-- **Decisões Simples:** Estruturas que utilizam uma única condição.  
-- **Decisões Compostas:** Estruturas que envolvem múltiplas condições ou alternativas.  
-
-### 3. Estruturas de Repetição
-- **Laços com Contador:** Repetição controlada por uma variável de contagem.  
-- **Laços com Condicional:** Repetição baseada em uma condição lógica.  
-
-### 4. Funções e Procedimentos
-- **Procedimentos:** Blocos de código que executam uma tarefa específica.  
-- **Funções:** Blocos de código que retornam valores após a execução de uma tarefa.  
-
-### 5. Técnicas de Modularização
-- **Módulos:** Agrupamento de funcionalidades relacionadas em um único módulo ou classe.  
-
-### 6. Variáveis Compostas Heterogêneas
-- **Structs:** Estruturas que permitem o armazenamento de diferentes tipos de dados em um único bloco.  
-
----
+todo
 
 ## 🌐 Estrutura do Website
 O site será dividido em **duas páginas**:  
