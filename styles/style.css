@@ -1,0 +1,79 @@
+html {
+  scroll-behavior: smooth; /* rolagem suave ao clicar no menu */
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Barra fixa */
+.side-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #222;
+  color: #fff;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1200px;
+  z-index: 100;
+}
+
+.side-bar h1 {
+  margin: 0;
+}
+
+.side-bar nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.side-bar nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.side-bar nav ul li a:hover {
+  color: #00bfff;
+}
+
+/* Main */
+main {
+  margin-top: 30px;
+}
+
+section {
+  min-height: 80vh; /* cada seção ocupa a tela cheia */
+  padding: 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+.apresentacao {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.apresentacao h1 {
+  font-size: 2.5rem;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: #fff;
+}
