@@ -77,3 +77,9 @@ footer {
   background: #222;
   color: #fff;
 }
+
+.membro img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
