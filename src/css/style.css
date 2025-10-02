@@ -10,9 +10,9 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #f4f7fa; /* Fundo leve geral, combina bem */
-  color: #34495E; /* Texto principal mais escuro */
+  color: #34495e; /* Texto principal mais escuro */
 }
 
 /* Barra fixa */
@@ -22,7 +22,7 @@ body {
   left: 0;
   width: 100%;
   height: 100px;
-  background-color: #34495E; /* Azul escuro da imagem */
+  background-color: #34495e; /* Azul escuro da imagem */
   color: #fff;
   padding: 0 40px;
   display: flex;
@@ -61,7 +61,7 @@ body {
 }
 
 .side-bar nav ul li a:hover {
-  color: #F39C12; /* <-- COR ALTERADA: Laranja para hover */
+  color: #f39c12; /* <-- COR ALTERADA: Laranja para hover */
 }
 
 /* Main */
@@ -73,7 +73,7 @@ main {
 section {
   min-height: 80vh;
   padding: 60px 40px;
-  border-bottom: 1px solid #ECF0F1;
+  border-bottom: 1px solid #ecf0f1;
   background-color: #ffffff; /* Fundo branco para seções */
   margin-bottom: 20px;
   border-radius: 10px;
@@ -100,7 +100,7 @@ section:last-child {
 }
 
 .apresentacao h2 {
-  color: #34495E;
+  color: #34495e;
   font-size: 1.5rem;
   margin-bottom: 5px;
 }
@@ -108,13 +108,13 @@ section:last-child {
 .apresentacao h1 {
   font-size: 4rem;
   margin-top: 0;
-  color: #34495E;
+  color: #34495e;
   line-height: 1.1;
 }
 
 .apresentacao p {
   font-size: 1.2rem;
-  color: #34495E;
+  color: #34495e;
   max-width: 600px;
   margin: 20px auto 40px;
 }
@@ -122,35 +122,47 @@ section:last-child {
 /* Banner da Apresentação - AGORA COM O FUNDO AZUL */
 .banner {
   margin-top: 30px;
-  max-width: 80%;
+  max-width: 100%;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 25px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-  background-color: #A9CCE3; /* <-- COR ALTERADA: Azul claro APENAS para o fundo do banner */
-  padding: 20px; /* Adiciona um padding ao redor da imagem dentro do banner */
+  background-color: #a9cce3; /* Azul claro APENAS para o fundo do banner */
+  padding: 27px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); <-- Esta linha é redundante e pode ser removida */
+  transition: box-shadow 0.5s ease, transform 0.5s ease; /* Adiciona transição para o transform */
 }
 
 .banner img {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 25px;
+  transition: transform 0.5s ease; /* Adiciona transição para o transform da imagem */
 }
 
+.banner:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25); /* Sombra mais escura e espalhada */
+  transform: translateY(-5px); /* Levanta o banner um pouco */
+}
+
+.banner:hover img {
+  transform: scale(1.03); /* Aumenta a imagem em 3% */
+}
 
 /* Títulos de Seção */
 h2 {
-  font-size: 2.5rem;
-  color: #34495E;
+  font-size: 3rem;
+  color: #34495e;
   margin-bottom: 30px;
   position: relative;
 }
 
 h2::after {
-  content: '';
+  content: "";
   display: block;
-  width: 60px;
+  width: 100px;
   height: 4px;
-  background-color: #F39C12; /* <-- COR ALTERADA: Laranja para a linha */
+  background-color: #f39c12; /* <-- COR ALTERADA: Laranja para a linha */
   margin: 10px auto 0;
   border-radius: 2px;
 }
@@ -168,7 +180,7 @@ h2::after {
   background-color: #f9f9f9;
   padding: 15px 25px;
   margin-bottom: 15px;
-  border-left: 5px solid #5DADE2; /* Azul médio para a borda */
+  border-left: 5px solid #5dade2; /* Azul médio para a borda */
   border-radius: 5px;
   font-size: 1.1rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
@@ -198,12 +210,12 @@ h2::after {
 }
 
 .video h3 {
-  color: #34495E;
+  color: #34495e;
   margin-top: 0;
 }
 
 .btn-assistir {
-  background-color: #F39C12; /* <-- COR ALTERADA: Laranja para o botão */
+  background-color: #f39c12; /* <-- COR ALTERADA: Laranja para o botão */
   color: white;
   border: none;
   padding: 10px 20px;
@@ -215,18 +227,18 @@ h2::after {
 }
 
 .btn-assistir:hover {
-  background-color: #E67E22; /* <-- COR ALTERADA: Laranja um pouco mais escuro para hover */
+  background-color: #e67e22; /* <-- COR ALTERADA: Laranja um pouco mais escuro para hover */
 }
 
 /* Seção de Jogos */
 .area-jogo {
   margin-top: 30px;
-  background-color: #A9CCE3; /* Azul claro para área de jogo */
-  border: 2px dashed #5DADE2; /* Borda azul médio */
+  background-color: #a9cce3; /* Azul claro para área de jogo */
+  border: 2px dashed #5dade2; /* Borda azul médio */
   padding: 100px 20px;
   border-radius: 10px;
   font-size: 1.5rem;
-  color: #34495E;
+  color: #34495e;
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
@@ -237,12 +249,13 @@ h2::after {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 40px;
-  margin-top: 40px;
+  gap: 70px;
+  margin-top: 200px;
 }
 
 .membro {
-  width: 200px;
+  width: 400px;
+  height: auto;
   text-align: center;
   padding: 15px;
   background-color: #ffffff;
@@ -257,22 +270,22 @@ h2::after {
 
 .membro img {
   width: 100%;
-  max-width: 150px;
-  height: 150px;
+  max-width: 250px;
+  height: 250px;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid #F39C12; /* <-- COR ALTERADA: Borda da imagem Laranja */
+  border: 4px solid #f39c12; /* <-- COR ALTERADA: Borda da imagem Laranja */
   margin-bottom: 10px;
 }
 
 .membro h3 {
-  color: #34495E;
+  color: #34495e;
   margin: 10px 0 5px;
   font-size: 1.2rem;
 }
 
 .membro p {
-  color: #5DADE2;
+  color: #5dade2;
   font-size: 0.95rem;
 }
 
@@ -280,7 +293,7 @@ h2::after {
 footer {
   text-align: center;
   padding: 30px 20px;
-  background: #34495E; /* Azul escuro para o footer */
+  background: #34495e; /* Azul escuro para o footer */
   color: #fff;
   font-size: 0.9rem;
 }
@@ -332,11 +345,13 @@ footer {
     padding: 40px 20px;
   }
 
-  .membros, .videos {
+  .membros,
+  .videos {
     gap: 20px;
   }
 
-  .video, .membro {
+  .video,
+  .membro {
     width: 100%;
     max-width: 300px;
   }
