@@ -1,163 +1,149 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Certificadora</title>
-        <link rel="stylesheet" href="./src/css/style.css" />
-        <script src="./src/js/script.js" defer></script>
-    </head>
-    <body>
-        <!-- Barra fixa -->
-        <header>
-            <div class="side-bar">
-                <h1>GameClass</h1>
-                <nav>
-                    <ul>
-                        <li><a href="#objetivos">Objetivos</a></li>
-                        <li><a href="#aulas">Aulas</a></li>
-                        <li><a href="#jogos">Jogos</a></li>
-                        <li><a href="#time">Time</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Certificadora</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <script src="./src/js/script.js" defer></script>
+  </head>
+  <body>
+    <!-- Barra fixa -->
+    <header>
+      <div class="side-bar">
+        <h1>GameClass</h1>
+        <nav>
+          <ul>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#aulas">Aulas</a></li>
+            <li><a href="#jogos">Jogos</a></li>
+            <li><a href="#time">Time</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-        <main>
-            <!-- Apresentação -->
-            <section class="apresentacao">
-                <h1>Boas Vindas!</h1>
-                <h2>Apresentação do Projeto</h2>
-                <p>
-                    <i
-                        >O GameClass visa desenvolver um conjunto abrangente de
-                        Recursos Educacionais Abertos (REA) de alta qualidade
-                        para a disciplina de Fundamentos da Programação. Nosso
-                        objetivo central é democratizar o acesso ao conhecimento
-                        básico de programação, transformando o aprendizado em
-                        uma experiência acessível, lúdica e profundamente
-                        engajadora para estudantes de diversos níveis e origens,
-                        que buscam adquirir as competências essenciais para
-                        iniciar sua jornada na área de Tecnologia da
-                        Informação.</i
-                    >
-                </p>
-                <!-- Banner ou imagem -->
-                <div class="banner">
-                    <a href="" target="_blank">
-                        <img src="./src/assets/img/banner.png" alt="Banner" />
-                    </a>
-                </div>
-            </section>
+    <main>
+      <!-- Apresentação -->
+      <section class="apresentacao">
+        <h1>Boas Vindas!</h1>
+        <h2>Apresentação do Projeto</h2>
+        <p>
+          <i
+            >O GameClass visa desenvolver um conjunto abrangente de Recursos
+            Educacionais Abertos (REA) de alta qualidade para a disciplina de
+            Fundamentos da Programação. Nosso objetivo central é democratizar o
+            acesso ao conhecimento básico de programação, transformando o
+            aprendizado em uma experiência acessível, lúdica e profundamente
+            engajadora para estudantes de diversos níveis e origens, que buscam
+            adquirir as competências essenciais para iniciar sua jornada na área
+            de Tecnologia da Informação.</i
+          >
+        </p>
+        <!-- Banner ou imagem -->
+        <div class="banner">
+          <a href="" target="_blank">
+            <img src="./src/assets/img/banner.png" alt="Banner" />
+          </a>
+        </div>
+      </section>
 
-            <!-- Objetivos -->
-            <section id="objetivos">
-                <h2>Objetivos do GameClass</h2>
-                <ul>
-                    <li>
-                        <i
-                            >Democratizar o acesso ao conhecimento básico de
-                            programação, desenvolvendo materiais sob licenças
-                            abertas (REA) e seguindo princípios de design
-                            universal para garantir a máxima inclusão de
-                            estudantes de diversas origens.</i
-                        >
-                    </li>
-                    <li>
-                        <i
-                            >Promover um aprendizado lúdico e efetivo,
-                            implementando a gamificação, a visualização de
-                            algoritmos e o Aprendizado Baseado em Projetos (PBL)
-                            para garantir a aplicação prática imediata dos
-                            fundamentos.</i
-                        >
-                    </li>
-                    <li>
-                        <i
-                            >Desenvolver um ecossistema abrangente e modular de
-                            recursos educacionais de alta qualidade, incluindo
-                            videoaulas dinâmicas, guias interativos e ambientes
-                            de programação online (in-browser), cobrindo todos
-                            os pilares essenciais da disciplina.</i
-                        >
-                    </li>
-                </ul>
-            </section>
+      <!-- Objetivos -->
+      <section id="objetivos">
+        <h2>Objetivos do GameClass</h2>
+        <ul>
+          <li>
+            <i
+              >Democratizar o acesso ao conhecimento básico de programação,
+              desenvolvendo materiais sob licenças abertas (REA) e seguindo
+              princípios de design universal para garantir a máxima inclusão de
+              estudantes de diversas origens.</i
+            >
+          </li>
+          <li>
+            <i
+              >Promover um aprendizado lúdico e efetivo, implementando a
+              gamificação, a visualização de algoritmos e o Aprendizado Baseado
+              em Projetos (PBL) para garantir a aplicação prática imediata dos
+              fundamentos.</i
+            >
+          </li>
+          <li>
+            <i
+              >Desenvolver um ecossistema abrangente e modular de recursos
+              educacionais de alta qualidade, incluindo videoaulas dinâmicas,
+              guias interativos e ambientes de programação online (in-browser),
+              cobrindo todos os pilares essenciais da disciplina.</i
+            >
+          </li>
+        </ul>
+      </section>
 
-            <!-- Aulas -->
-            <section id="aulas">
-                <h2>Aulas</h2>
-                <p>Clique no botão para assistir cada aula</p>
-                <div class="videos">
-                    <div class="video">
-                        <h3>Aula 1</h3>
-                        <button
-                            class="btn-assistir"
-                            data-video="./src/assets/videos/teste.gif"
-                        >
-                            Assistir Aula
-                        </button>
-                    </div>
+      <!-- Aulas -->
+      <section id="aulas">
+        <h2>Aulas</h2>
+        <p>Clique no botão para assistir cada aula</p>
+        <div class="videos">
+          <div class="video">
+            <h3>Aula 1</h3>
+            <button
+              class="btn-assistir"
+              data-video="./src/assets/videos/teste.gif"
+            >
+              Assistir Aula
+            </button>
+          </div>
 
-                    <div class="video">
-                        <h3>Aula 2</h3>
-                        <button
-                            class="btn-assistir"
-                            data-video="./src/assets/videos/aula2.mp4"
-                        >
-                            Assistir Aula
-                        </button>
-                    </div>
-                    <!-- Adicione mais aulas seguindo o mesmo padrão -->
-                </div>
-            </section>
+          <div class="video">
+            <h3>Aula 2</h3>
+            <button
+              class="btn-assistir"
+              data-video="./src/assets/videos/aula2.mp4"
+            >
+              Assistir Aula
+            </button>
+          </div>
+          <!-- Adicione mais aulas seguindo o mesmo padrão -->
+        </div>
+      </section>
 
-            <!-- Jogos -->
-            <section id="jogos">
-                <h2>Jogos</h2>
-                <div class="area-jogo">
-                    <a href="Jogo/index.html" target="_blank">
-                        <button class="btn-jogo">Start Game</button>
-                    </a>
-                </div>
-            </section>
+      <!-- Jogos -->
+      <section id="jogos">
+        <h2>Jogos</h2>
+        <div class="area-jogo">
+          <a href="Jogo/index2.html" target="_blank">
+            <button class="btn-jogo">Start Game</button>
+          </a>
+        </div>
+      </section>
 
-            <!-- Time -->
-            <section id="time">
-                <h2>Nosso Time</h2>
-                <div class="membros">
-                    <div class="membro">
-                        <img
-                            src="./src/assets/img/alexis.pnj"
-                            alt="Alexis..."
-                        />
-                        <h3>Nome do Membro</h3>
-                    </div>
-                    <div class="membro">
-                        <img
-                            src="./src/assets/img/Gabriel.jpeg"
-                            alt="Gabriel..."
-                        />
-                        <h3>Gabriel de Peder</h3>
-                    </div>
-                    <div class="membro">
-                        <img
-                            src="./src/assets/img/jefhter.jpg"
-                            alt="Jefhter R. Cabral"
-                        />
-                        <h3>Jefhter R. Cabral</h3>
-                    </div>
-                    <div class="membro">
-                        <img src="./src/assets/img/joao.jpg" alt="João..." />
-                        <h3>João Vitor Antoniel</h3>
-                    </div>
-                    <!-- Adicione mais membros -->
-                </div>
-            </section>
-        </main>
+      <!-- Time -->
+      <section id="time">
+        <h2>Nosso Time</h2>
+        <div class="membros">
+          <div class="membro">
+            <img src="./src/assets/img/alexis.pnj" alt="Alexis..." />
+            <h3>Nome do Membro</h3>
+          </div>
+          <div class="membro">
+            <img src="./src/assets/img/Gabriel.jpeg" alt="Gabriel..." />
+            <h3>Gabriel de Peder</h3>
+          </div>
+          <div class="membro">
+            <img src="./src/assets/img/jefhter.jpg" alt="Jefhter R. Cabral" />
+            <h3>Jefhter R. Cabral</h3>
+          </div>
+          <div class="membro">
+            <img src="./src/assets/img/joao.jpg" alt="João..." />
+            <h3>João Vitor Antoniel</h3>
+          </div>
+          <!-- Adicione mais membros -->
+        </div>
+      </section>
+    </main>
 
-        <footer>
-            <p>&copy; 2025 Certificadora - Todos os direitos reservados</p>
-        </footer>
-    </body>
+    <footer>
+      <p>&copy; 2025 Certificadora - Todos os direitos reservados</p>
+    </footer>
+  </body>
 </html>
