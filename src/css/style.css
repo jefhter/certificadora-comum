@@ -233,16 +233,42 @@ h2::after {
 /* Seção de Jogos */
 .area-jogo {
   margin-top: 30px;
-  background-color: #a9cce3; /* Azul claro para área de jogo */
-  border: 2px dashed #5dade2; /* Borda azul médio */
-  padding: 100px 20px;
+  background-color: #34495e; /* Fundo escuro (da sua cor de fonte) */
+  border: 1px solid #5dade2; /* Borda sólida azul, estilo "grid" */
+  padding: 80px 40px; /* Padding ajustado */
   border-radius: 10px;
   font-size: 1.5rem;
-  color: #34495e;
+  color: #a9cce3; /* Cor do texto (se houver) mais clara */
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(93, 173, 226, 0.2); /* Brilho azul sutil no card */
 }
+
+/* O seu botão original - quase perfeito para este tema */
+.btn-jogo {
+  background: transparent;
+  color: #5dade2;
+  border: 3px solid #5dade2;
+  padding: 14px 36px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+  /* O seu box-shadow original fica excelente aqui */
+  box-shadow: 0 0 10px rgba(93, 173, 226, 0.5);
+}
+
+.btn-jogo:hover {
+  color: #fff;
+  background-color: #5dade2;
+  box-shadow: 0 0 20px #5dade2, 0 0 40px #5dade2;
+  transform: scale(1.05);
+}
+
 
 /* Seção do Time */
 .membros {
