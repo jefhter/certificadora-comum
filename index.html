@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Certificadora</title>
     <link rel="stylesheet" href="./src/css/style.css" />
-    <script src="./src/js/script.js" defer></script>
+    <script src="./src/js/videos.js" defer></script>
   </head>
   <body>
     <header> <!-- Barra fixa -->
@@ -81,12 +81,12 @@
       <section id="aulas">
         <h2>Aulas</h2>
         <p>Clique no botão para assistir cada aula</p>
-        <div class="videos">
+        <div class="videos" id="lista-aulas-botoes">
           <div class="video">
             <h3>Aula 1</h3>
             <button
               class="btn-assistir"
-              data-video="./src/assets/videos/aula1.mp4"
+              data-video-url="./src/assets/videos/aula1.mp4"
             >
               Assistir Aula
             </button>
@@ -96,7 +96,7 @@
             <h3>Aula 2</h3>
             <button
               class="btn-assistir"
-              data-video="./src/assets/videos/aula2.mp4"
+              data-video-url="./src/assets/videos/aula2.mp4"
             >
               Assistir Aula
             </button>
@@ -106,7 +106,7 @@
             <h3>Aula 3</h3>
             <button
               class="btn-assistir"
-              data-video="./src/assets/videos/aula3.mp4"
+              data-video-url="./src/assets/videos/aula3.mp4"
             >
               Assistir Aula
             </button>
@@ -116,7 +116,7 @@
             <h3>Aula 4</h3>
             <button
               class="btn-assistir"
-              data-video="./src/assets/videos/aula4.mp4"
+              data-video-url="./src/assets/videos/aula4.mp4"
             >
               Assistir Aula
             </button>
@@ -126,7 +126,7 @@
             <h3>Aula 5</h3>
             <button
               class="btn-assistir"
-              data-video="./src/assets/videos/aula5.mp4"
+              data-video-url="./src/assets/videos/aula5.mp4"
             >
               Assistir Aula
             </button>
@@ -136,12 +136,17 @@
             <h3>Aula 6</h3>
             <button
               class="btn-assistir"
-              data-video="./src/assets/videos/aula6.mp4"
+              data-video-url="./src/assets/videos/aula6.mp4"
             >
               Assistir Aula
             </button>
           </div>
         </div>
+        <section class="vaulas" id="video-player-section">
+          <div class="tela">
+
+          </div>
+        </section>
       </section>
 
       <!-- Jogos -->
@@ -159,10 +164,6 @@
         <h2>Nosso Time</h2>
         <div class="membros">
           <div class="membro">
-            <img src="./src/assets/img/alexis.pnj" alt="Alexis..." />
-            <h3>Nome do Membro</h3>
-          </div>
-          <div class="membro">
             <img src="./src/assets/img/Gabriel.jpeg" alt="Gabriel..." />
             <h3>Gabriel de Peder</h3>
           </div>
@@ -174,12 +175,16 @@
             <img src="./src/assets/img/joao.jpg" alt="João..." />
             <h3>João Vitor Antoniel</h3>
           </div>
+          <div class="membro">
+            <img src="./src/assets/img/alexis.pnj" alt="Alexis..." />
+            <h3>Nome do Membro</h3>
+          </div>
         </div>
       </section>
     </main>
 
     <footer>
       <p>&copy; 2025 Certificadora - Todos os direitos reservados</p>
-    </footer>
+    </footer> 
   </body>
 </html>
