@@ -66,12 +66,13 @@ O projeto é estruturado como um **Web App Estático** de duas páginas, focado 
 
 ```estrutura
 certificadora-comum/
-├── index.html          # Página principal do projeto (fora do /src), que provavelmente carrega o conteúdo principal.
-├── README.md           # Documentação do Projeto
+├── index.html          # Página principal do projeto
+├── README.md           
 ├── /src/               
-│   ├── /css/           # Arquivos CSS da Página 1
+│   ├── /css/           # Estilização Geral
 │   │   └── style.css
-│   ├── /js/            
+│   ├── /js/
+│       ├── slides.js   # Lógica para carregar os slides do curso, em uma nova aba            
 │   │   └── videos.js   # Lógica para carregar ou gerenciar os vídeos do curso
 │   └── /game/          
 │       ├── index.html  # Página do Jogo de Revisão
@@ -79,7 +80,6 @@ certificadora-comum/
 │       └── jogo.js     # Lógica e regras do Jogo 
 └── /assets/            
     ├── /img/           # Imagens e ícones
-    ├── /pdfs/          # PDFs ou materiais complementares de apoio
     └── /videos/        # Vídeos do curso 
 ```
 ---
