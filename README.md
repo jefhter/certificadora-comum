@@ -44,3 +44,63 @@ Estudantes **iniciantes em programação** que desejam adquirir uma base sólida
 - [João Vitor Antoniel](https://github.com/Batujao)
 
 ---
+---
+
+# 🛠️ Documentação Técnica do Projeto
+
+## 1. Visão Geral da Arquitetura
+
+O projeto é estruturado como um **Web App Estático** de duas páginas, focado em alta performance e fácil manutenção.
+
+### 1.1. Pilha Tecnológica
+
+| Componente | Tecnologia | Propósito |
+| :--- | :--- | :--- |
+| **Estrutura** | HTML5 | Define o conteúdo e a estrutura das páginas 1 e 2. |
+| **Estilização** | CSS3  | Responsável pelo *layout* responsivo e a estética lúdica do site. |
+| **Interatividade** | JavaScript Puro | Gerencia a lógica do Jogo de Revisão e a interação dos Micro-desafios. |
+| **Hospedagem** | GitHub Pages | Distribuição gratuita e eficiente (como já está sendo utilizado). |
+| **Conteúdo** | Vídeos incorporados | Fonte dos Recursos Educacionais Abertos (REA). |
+
+### 1.2. Estrutura de Diretórios
+
+```estrutura
+certificadora-comum/
+├── index.html          # Página principal do projeto (fora do /src), que provavelmente carrega o conteúdo principal.
+├── README.md           # Documentação do Projeto
+├── /src/               
+│   ├── /css/           # Arquivos CSS da Página 1
+│   │   └── style.css
+│   ├── /js/            
+│   │   └── videos.js   # Lógica para carregar ou gerenciar os vídeos do curso
+│   └── /game/          
+│       ├── index.html  # Página do Jogo de Revisão
+│       ├── jogo.css    # Estilização específica do Jogo
+│       └── jogo.js     # Lógica e regras do Jogo 
+└── /assets/            
+    ├── /img/           # Imagens e ícones
+    ├── /pdfs/          # PDFs ou materiais complementares de apoio
+    └── /videos/        # Vídeos do curso 
+```
+---
+
+## 2. Guia de Configuração e Desenvolvimento
+
+Este guia é para desenvolvedores que desejam clonar, executar localmente e contribuir com o projeto.
+
+### 2.1. Pré-requisitos
+
+* Um editor de código (VS Code, Sublime Text, etc.).
+* Git instalado na sua máquina.
+* Um navegador web moderno.
+
+### 2.2. Instalação e Execução Local
+
+1.  **Clonar o Repositório:**
+    ```bash
+    git clone https://github.com/jefhter/certificadora-comum.git
+    cd certificadora-comum
+    ```
+2.  **Executar Localmente:**
+    * Como este é um projeto estático, basta abrir o arquivo `index.html` e/ou `game/index.html` diretamente no seu navegador.
+---
