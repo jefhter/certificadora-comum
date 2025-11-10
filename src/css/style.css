@@ -287,7 +287,6 @@ h2::after {
   transform: scale(1.05);
 }
 
-
 /* Seção do Time */
 .membros {
   display: flex;
@@ -423,23 +422,22 @@ section .vaulas {
   margin-top: 30px;
 }
 
-
 .icone-aula {
-    width: 240px;
-    height: 240px;
-    margin: 0 auto 10px auto;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden; 
-    
-    border-radius: 8px;
+  width: 240px;
+  height: 240px;
+  margin: 0 auto 10px auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  border-radius: 8px;
 }
 
 .icone-aula img {
-  width: 100%; 
-  height: 100%; 
+  width: 100%;
+  height: 100%;
   object-fit: contain;
   transform: scale(1.5);
 }
@@ -448,7 +446,8 @@ section .vaulas {
   transform: scale(1.2);
 }
 
-.icone-aula #img-a4, .icone-aula #img-a5{
+.icone-aula #img-a4,
+.icone-aula #img-a5 {
   transform: scale(2.1);
 }
 
@@ -458,4 +457,42 @@ section .vaulas {
 
 div .video h4 {
   margin: 15px 0;
+}
+
+#video-player-section .tela {
+  /* Define o tamanho máximo para evitar que o vídeo fique muito largo em telas grandes */
+  max-width: 900px;
+  margin: 40px auto; /* Centraliza e adiciona espaço */
+
+  /* Aplica o Border-Radius! */
+  border-radius: 20px;
+
+  /* ESSENCIAL: Garante que o iframe interno seja recortado nos cantos arredondados */
+  overflow: hidden;
+
+  /* Adiciona uma sombra suave para dar profundidade */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+
+  /* Opcional: Borda para combinar com o tema */
+  border: 1px solid #e0e0e0;
+}
+
+/* 2. Estiliza o Iframe interno (com base na classe que adicionei no seu JS) */
+.iframe-video-player {
+  display: block;
+  width: 100%;
+  /* A altura de 600px é definida no JS, mas pode ser ajustada aqui 
+       Se você usar o width="100%" no iframe (conforme sugeri no JS), 
+       ele vai preencher o max-width de 900px do pai.
+    */
+}
+
+/* 3. Ajuste de Responsividade para o container do player em telas menores */
+@media (max-width: 992px) {
+  #video-player-section .tela {
+    /* Diminui o arredondamento em telas menores para melhor visual */
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
