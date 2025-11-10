@@ -155,7 +155,7 @@ const LEVELS = [
             "nome: string; \nidade: int;",
             "int nome; \nchar idade;",
         ],
-        answer: "char nome[50]; int idade;",
+        answer: "char nome[50]; \nint idade;",
         output: "Estrutura criada com campos nome e idade.",
         hint: "Use tipos C válidos e ponto e vírgula após cada campo.",
     },
