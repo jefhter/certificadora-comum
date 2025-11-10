@@ -224,10 +224,28 @@ h2::after {
   cursor: pointer;
   transition: background-color 0.3s ease;
   font-weight: bold;
+  margin-top: 10px;
+}
+
+.btn-material {
+  background-color: #6365cf; /* <-- COR ALTERADA: Laranja para o botão */
+  color: white;
+  border: none;
+  padding: 10px 8px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  margin-top: 15px;
 }
 
 .btn-assistir:hover {
   background-color: #e67e22; /* <-- COR ALTERADA: Laranja um pouco mais escuro para hover */
+}
+
+.btn-material:hover {
+  background-color: #4e50cf; /* <-- COR ALTERADA: Laranja um pouco mais escuro para hover */
 }
 
 /* Seção de Jogos */
@@ -403,4 +421,41 @@ footer {
 
 section .vaulas {
   margin-top: 30px;
+}
+
+
+.icone-aula {
+    width: 240px;
+    height: 240px;
+    margin: 0 auto 10px auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+    
+    border-radius: 8px;
+}
+
+.icone-aula img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain;
+  transform: scale(1.5);
+}
+
+.icone-aula #img-a2 {
+  transform: scale(1.2);
+}
+
+.icone-aula #img-a4, .icone-aula #img-a5{
+  transform: scale(2.1);
+}
+
+.icone-aula #img-a6 {
+  transform: scale(2.35);
+}
+
+div .video h4 {
+  margin: 15px 0;
 }
