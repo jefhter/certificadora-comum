@@ -38,7 +38,6 @@ Estudantes **iniciantes em programação** que desejam adquirir uma base sólida
 ---
 
 ## ✍️ Autores
-- [Alexis Liasch Tavares](https://github.com/Ahalekin)
 - [Gabriel de Peder](https://github.com/GabrieldPeder)
 - [Jefhter Rodrigues Cabral](https://github.com/jefhter)
 - [João Vitor Antoniel](https://github.com/Batujao)
